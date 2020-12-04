@@ -1,0 +1,27 @@
+.home__videos {
+    position: relative;
+    height: 80vh; 
+    border-radius: 10px 10px 0px 0px;
+    overflow: scroll;
+    width: 300px;
+    scroll-snap-type: y mandatory;
+    background-color: white;
+}
+  
+.home__navigation{
+position: relative;
+background-color: black;
+color: white;
+height: 50px;
+width: 300px;
+border-radius: 0px 0px 10px 10px;
+}
+
+.home__videos::-webkit-scrollbar {
+display: none;
+}
+
+.home__videos {
+-ms-overflow-style: none;
+scrollbar-width: none;
+}

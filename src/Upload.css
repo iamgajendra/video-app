@@ -1,0 +1,76 @@
+.upload__page {
+    position: relative;
+    height: 80vh; 
+    border-radius: 10px 10px 0px 0px;
+    overflow: scroll;
+    width: 300px;
+    max-width: 500px;
+    background: #a1ffce; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #a1ffce, #faffd1); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #a1ffce, #faffd1); 
+  }
+  
+.upload__navbar{
+position: relative;
+background-color: black;
+color: white;
+height: 50px;
+width: 300px;
+border-radius: 0px 0px 10px 10px;
+}
+
+.upload__page::-webkit-scrollbar {
+display: none;
+}
+
+.upload__page {
+-ms-overflow-style: none;
+scrollbar-width: none;
+}
+
+.uploadPage__head {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+}
+
+.uploadPage__head > h1 {
+    font-family: "Lucida Console", Courier, monospace;
+}
+
+.uploadPage__form {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    align-items: center;
+}
+
+.song {
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.caption {
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.file {
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+    background-color: whitesmoke;
+}
+
+.uploadPage__form > input:focus {
+    outline: none;
+} 
+
+.uploadPage__form > button {
+    padding: 10px;
+    border-radius: 20px;
+    width: 50%;
+    margin: 30px;
+}
